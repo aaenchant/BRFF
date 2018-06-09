@@ -1,0 +1,13 @@
+{
+"companyName": "DefaultCompany",
+"productName": "Project_Brff",
+"dataUrl": "WebGL_Builds.data.unityweb",
+"asmCodeUrl": "WebGL_Builds.asm.code.unityweb",
+"asmMemoryUrl": "WebGL_Builds.asm.memory.unityweb",
+"asmFrameworkUrl": "WebGL_Builds.asm.framework.unityweb",
+"TOTAL_MEMORY": 268435456,
+"graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Light",
+"backgroundColor": "#FFFFFF"
+}
