@@ -1,11 +1,13 @@
 <html>
-<body>
-<img id="image" style="background: url(https://pp.userapi.com/c849032/v849032279/71894/USpQE039o1M.jpg); background-size: cover; width: 800px; height: 600px; display: block; -webkit-user-select: none;"/>
+<body style="margin: 0; padding: 0;">
+<img id="image" style="background: url(https://gifer.com/i/Cc8F.gif); width:800px; height:600px; display: none; -webkit-user-select: none;"></img>
 <script> 
 var img = document.getElementById("image");
 setTimeout (imgOn, 4000);
-function imgOn(){img.style.display="block";setTimeout(imgOff, 2000);}
-function imgOff(){img.style.display="none";setTimeout(imgOn, 4000);}
+function imgOn(){img.style.display = "block";setTimeout (imgOff, 3000);}
+function imgOff(){
+ location.reload();
+}
 </script>
 </body>
 </html>
